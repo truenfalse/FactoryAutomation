@@ -113,7 +113,7 @@ namespace FactoryAutomation.Core
             if(TService.IsInterface == true)
             {
                 if (m_InterfaceToServiceDictionary.ContainsKey(TService))
-                    return Resolve(m_InterfaceToServiceDictionary[TService]);
+                    return Resolve(m_InterfaceToServiceDictionary[TService],Key);
             }
 
             string tempKey = Key;
@@ -153,6 +153,7 @@ namespace FactoryAutomation.Core
                     if (m_ServiceToFactoryDictionary[TService].ContainsKey(tempKey))
                     {
                         object Instance = CreateInstance(TService);
+                        m_ServiceToInstanceDictionary.Add(TService, new Dictionary<string, object>());
                         m_ServiceToInstanceDictionary[TService].Add(tempKey, Instance);
                     }
                     else
@@ -168,12 +169,12 @@ namespace FactoryAutomation.Core
             return m_ServiceToInstanceDictionary[TService][tempKey];
         }
 
-        public object Resolve<TService>(string Key = null) where TService : class
+        public TService Resolve<TService>(string Key = null) where TService : class
         {
             if (typeof(TService).IsInterface == true)
             {
                 if (m_InterfaceToServiceDictionary.ContainsKey(typeof(TService)))
-                    return Resolve(m_InterfaceToServiceDictionary[typeof(TService)]);
+                    return Resolve(m_InterfaceToServiceDictionary[typeof(TService)], Key) as TService;
             }
 
             string tempKey = Key;
@@ -185,7 +186,7 @@ namespace FactoryAutomation.Core
             if (m_ServiceToInstanceDictionary.ContainsKey(typeof(TService)))
             {
                 if (m_ServiceToInstanceDictionary[typeof(TService)].ContainsKey(tempKey)) // Key에 맞는 Instance가 있을경우
-                    return m_ServiceToInstanceDictionary[typeof(TService)][tempKey];
+                    return m_ServiceToInstanceDictionary[typeof(TService)][tempKey] as TService;
                 else // Key에 맞는 인스턴스가 없는경우
                 {
                     if(m_ServiceToFactoryDictionary.ContainsKey(typeof(TService)))
@@ -213,6 +214,7 @@ namespace FactoryAutomation.Core
                     if (m_ServiceToFactoryDictionary[typeof(TService)].ContainsKey(tempKey))
                     {
                         object Instance = CreateInstance(typeof(TService));
+                        m_ServiceToInstanceDictionary.Add(typeof(TService), new Dictionary<string, object>());
                         m_ServiceToInstanceDictionary[typeof(TService)].Add(tempKey, Instance);
                     }
                     else
@@ -225,7 +227,7 @@ namespace FactoryAutomation.Core
                     throw new Exception("No Registered TService");
                 }
             }
-            return m_ServiceToInstanceDictionary[typeof(TService)][tempKey];
+            return m_ServiceToInstanceDictionary[typeof(TService)][tempKey] as TService;
         }
         private object CreateInstance(Type TService)
         {
@@ -247,10 +249,10 @@ namespace FactoryAutomation.Core
             object[] Parameters = new object[ParameterInfos.Length];
             for(int i = 0; i < ParameterInfos.Length; i++)
             {
-                Attribute attr = ParameterInfos[i].GetCustomAttribute(typeof(InjectionParameterAttribute));
+                InjectionParameterAttribute attr = ParameterInfos[i].GetCustomAttribute(typeof(InjectionParameterAttribute)) as InjectionParameterAttribute;
                 if(attr != null)
                 {
-                    Parameters[ParameterInfos[i].Position] = Resolve(ParameterInfos[i].ParameterType);
+                    Parameters[ParameterInfos[i].Position] = Resolve(ParameterInfos[i].ParameterType, attr.Key);
                 }
             }
             return InjectionCtor.Invoke(Parameters);

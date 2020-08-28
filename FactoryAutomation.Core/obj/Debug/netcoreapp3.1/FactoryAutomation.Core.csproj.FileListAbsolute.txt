@@ -1,0 +1,8 @@
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core\obj\Debug\netcoreapp3.1\FactoryAutomation.Core.AssemblyInfoInputs.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core\obj\Debug\netcoreapp3.1\FactoryAutomation.Core.AssemblyInfo.cs
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core\obj\Debug\netcoreapp3.1\FactoryAutomation.Core.csproj.CoreCompileInputs.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core\bin\Debug\netcoreapp3.1\FactoryAutomation.Core.deps.json
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core\bin\Debug\netcoreapp3.1\FactoryAutomation.Core.dll
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core\bin\Debug\netcoreapp3.1\FactoryAutomation.Core.pdb
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core\obj\Debug\netcoreapp3.1\FactoryAutomation.Core.dll
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core\obj\Debug\netcoreapp3.1\FactoryAutomation.Core.pdb
