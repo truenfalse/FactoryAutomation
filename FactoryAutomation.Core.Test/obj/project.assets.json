@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "FactoryAutomation.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/FactoryAutomation.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FactoryAutomation.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FactoryAutomation.Core/1.0.0": {
+      "type": "project",
+      "path": "../FactoryAutomation.Core/FactoryAutomation.Core.csproj",
+      "msbuildProject": "../FactoryAutomation.Core/FactoryAutomation.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "FactoryAutomation.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ydk11\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core\\FactoryAutomation.Core.csproj",
-      "projectName": "FactoryAutomation.Core",
-      "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core\\FactoryAutomation.Core.csproj",
+      "projectUniqueName": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core.Test\\FactoryAutomation.Core.Test.csproj",
+      "projectName": "FactoryAutomation.Core.Test",
+      "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core.Test\\FactoryAutomation.Core.Test.csproj",
       "packagesPath": "C:\\Users\\ydk11\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core\\obj\\",
+      "outputPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -36,7 +55,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core\\FactoryAutomation.Core.csproj": {
+              "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core\\FactoryAutomation.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

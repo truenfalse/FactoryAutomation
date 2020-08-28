@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.Core", "FactoryAutomation.Core\FactoryAutomation.Core.csproj", "{31AFD1F4-7903-45C4-AC1E-4EDFEFAF403A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryAutomation.Core", "FactoryAutomation.Core\FactoryAutomation.Core.csproj", "{31AFD1F4-7903-45C4-AC1E-4EDFEFAF403A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.Core.Test", "FactoryAutomation.Core.Test\FactoryAutomation.Core.Test.csproj", "{EA825A48-9E92-403B-BA4C-C7CC0F41FA4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{31AFD1F4-7903-45C4-AC1E-4EDFEFAF403A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31AFD1F4-7903-45C4-AC1E-4EDFEFAF403A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31AFD1F4-7903-45C4-AC1E-4EDFEFAF403A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA825A48-9E92-403B-BA4C-C7CC0F41FA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA825A48-9E92-403B-BA4C-C7CC0F41FA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA825A48-9E92-403B-BA4C-C7CC0F41FA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA825A48-9E92-403B-BA4C-C7CC0F41FA4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
