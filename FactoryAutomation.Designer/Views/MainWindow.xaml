@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FactoryAutomation.Designer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" DataContext="{Binding Path=Main, Source={StaticResource Locator}}">
-    <StackPanel>
-        <Button Width="50" Height="50" Command="{Binding ACommand}">A</Button>
-        <Button Width="50" Height="50" Command="{Binding BCommand}">B</Button>
-    </StackPanel>
+        Title="MainWindow" WindowState="Maximized" WindowStyle="None" d:Width="1920" d:Height="1080">
+    <Grid HorizontalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+    </Grid>
 </Window>

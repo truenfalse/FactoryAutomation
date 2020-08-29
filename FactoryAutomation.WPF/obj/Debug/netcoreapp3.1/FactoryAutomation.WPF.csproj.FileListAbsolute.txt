@@ -1,7 +1,3 @@
-C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\FactoryAutomation.WPF.csprojAssemblyReference.cache
-C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\FactoryAutomation.WPF.AssemblyInfoInputs.cache
-C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\FactoryAutomation.WPF.AssemblyInfo.cs
-C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\FactoryAutomation.WPF.csproj.CoreCompileInputs.cache
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\bin\Debug\netcoreapp3.1\FactoryAutomation.WPF.deps.json
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\bin\Debug\netcoreapp3.1\FactoryAutomation.WPF.dll
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\bin\Debug\netcoreapp3.1\FactoryAutomation.WPF.pdb
@@ -9,6 +5,10 @@ C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\bin\Debug\netcoreapp3.1\FactoryAutomation.Common.dll
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\bin\Debug\netcoreapp3.1\FactoryAutomation.Abstract.pdb
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\bin\Debug\netcoreapp3.1\FactoryAutomation.Common.pdb
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\FactoryAutomation.WPF.csprojAssemblyReference.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\FactoryAutomation.WPF.AssemblyInfoInputs.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\FactoryAutomation.WPF.AssemblyInfo.cs
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\FactoryAutomation.WPF.csproj.CoreCompileInputs.cache
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\FactoryAutomation.WPF.csproj.CopyComplete
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\FactoryAutomation.WPF.dll
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\FactoryAutomation.WPF.pdb

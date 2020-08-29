@@ -193,8 +193,16 @@ namespace FactoryAutomation.Core
                     {
                         if(m_ServiceToFactoryDictionary[typeof(TService)].ContainsKey(tempKey))
                         {
-                            object Instance = m_ServiceToFactoryDictionary[typeof(TService)][tempKey].DynamicInvoke();
-                            m_ServiceToInstanceDictionary[typeof(TService)].Add(tempKey, Instance);
+                            if (m_ServiceToFactoryDictionary[typeof(TService)][tempKey] == null)
+                            {
+                                object Instance = CreateInstance(typeof(TService));
+                                m_ServiceToInstanceDictionary[typeof(TService)].Add(tempKey, Instance);
+                            }
+                            else
+                            {
+                                object Instance = m_ServiceToFactoryDictionary[typeof(TService)][tempKey].DynamicInvoke();
+                                m_ServiceToInstanceDictionary[typeof(TService)].Add(tempKey, Instance);
+                            }
                         }
                         else
                         {
@@ -213,9 +221,18 @@ namespace FactoryAutomation.Core
                 {
                     if (m_ServiceToFactoryDictionary[typeof(TService)].ContainsKey(tempKey))
                     {
-                        object Instance = CreateInstance(typeof(TService));
-                        m_ServiceToInstanceDictionary.Add(typeof(TService), new Dictionary<string, object>());
-                        m_ServiceToInstanceDictionary[typeof(TService)].Add(tempKey, Instance);
+                        if(m_ServiceToFactoryDictionary[typeof(TService)][tempKey] == null)
+                        {
+                            object Instance = CreateInstance(typeof(TService));
+                            m_ServiceToInstanceDictionary.Add(typeof(TService), new Dictionary<string, object>());
+                            m_ServiceToInstanceDictionary[typeof(TService)].Add(tempKey, Instance);
+                        }
+                        else
+                        {
+                            object Instance = m_ServiceToFactoryDictionary[typeof(TService)][tempKey].DynamicInvoke();
+                            m_ServiceToInstanceDictionary.Add(typeof(TService), new Dictionary<string, object>());
+                            m_ServiceToInstanceDictionary[typeof(TService)].Add(tempKey, Instance);
+                        }
                     }
                     else
                     {

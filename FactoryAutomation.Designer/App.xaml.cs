@@ -25,7 +25,6 @@ namespace FactoryAutomation.Designer
             {
                 return new Container();
             });
-
             ServiceLocator.Current.Register<MainVIewModel>();
             ServiceLocator.Current.Register<MainWindow>();
 
