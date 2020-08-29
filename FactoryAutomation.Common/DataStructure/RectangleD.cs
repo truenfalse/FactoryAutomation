@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Drawing;
 using System.ComponentModel;
 
-namespace FactoryAutomation.DataStructure
+namespace FactoryAutomation.Common
 {
     [Serializable]
     public struct RectangleD

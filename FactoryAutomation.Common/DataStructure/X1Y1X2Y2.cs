@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
-namespace FactoryAutomation.DataStructure
+namespace FactoryAutomation.Common
 {
     public struct X1Y1X2Y2
     {

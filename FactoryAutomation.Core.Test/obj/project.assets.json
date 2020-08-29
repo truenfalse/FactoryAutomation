@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "FactoryAutomation.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/FactoryAutomation.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FactoryAutomation.Common.dll": {}
+        }
+      },
       "FactoryAutomation.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "FactoryAutomation.Common/1.0.0": {
+      "type": "project",
+      "path": "../FactoryAutomation.Common/FactoryAutomation.Common.csproj",
+      "msbuildProject": "../FactoryAutomation.Common/FactoryAutomation.Common.csproj"
+    },
     "FactoryAutomation.Core/1.0.0": {
       "type": "project",
       "path": "../FactoryAutomation.Core/FactoryAutomation.Core.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "FactoryAutomation.Common >= 1.0.0",
       "FactoryAutomation.Core >= 1.0.0"
     ]
   },
@@ -56,6 +72,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Common\\FactoryAutomation.Common.csproj": {
+              "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Common\\FactoryAutomation.Common.csproj"
+            },
             "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core\\FactoryAutomation.Core.csproj": {
               "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core\\FactoryAutomation.Core.csproj"
             }

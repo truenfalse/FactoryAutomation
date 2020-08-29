@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryAutomation.DataStructure
+namespace FactoryAutomation.Common
 {
     [Serializable]
     public struct LineD

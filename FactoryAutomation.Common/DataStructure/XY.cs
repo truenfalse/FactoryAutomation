@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 
-namespace FactoryAutomation.DataStructure
+namespace FactoryAutomation.Common
 {
     [Serializable]
     public struct XY

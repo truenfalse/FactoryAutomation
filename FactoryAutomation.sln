@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryAutomation.Core", "F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.Core.Test", "FactoryAutomation.Core.Test\FactoryAutomation.Core.Test.csproj", "{EA825A48-9E92-403B-BA4C-C7CC0F41FA4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.Abstract", "FactoryAutomation.Abstract\FactoryAutomation.Abstract.csproj", "{5848D2D3-A606-4721-9B7D-795347620857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.Common", "FactoryAutomation.Common\FactoryAutomation.Common.csproj", "{BEB10630-A5F7-4CA8-B4B1-62090F0F18A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{EA825A48-9E92-403B-BA4C-C7CC0F41FA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA825A48-9E92-403B-BA4C-C7CC0F41FA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA825A48-9E92-403B-BA4C-C7CC0F41FA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5848D2D3-A606-4721-9B7D-795347620857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5848D2D3-A606-4721-9B7D-795347620857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5848D2D3-A606-4721-9B7D-795347620857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5848D2D3-A606-4721-9B7D-795347620857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB10630-A5F7-4CA8-B4B1-62090F0F18A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB10630-A5F7-4CA8-B4B1-62090F0F18A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB10630-A5F7-4CA8-B4B1-62090F0F18A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB10630-A5F7-4CA8-B4B1-62090F0F18A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿using FactoryAutomation.DataStructure;
+﻿using FactoryAutomation.Common;
 using System;
 using System.Collections.Generic;
 using System.Text;
