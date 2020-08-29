@@ -25,7 +25,8 @@ namespace FactoryAutomation.Core.Test
             TestData[] dataArray = dataProvider.GetData().ToArray();
             for(int i = 0; i < dataArray.Length; i++)
             {
-                Console.WriteLine("TestData{0} : TestProperty = {1}", i, dataArray[i].TestProperty);
+                Console.WriteLine("TestData{0} :", i);
+                dataArray[i].Print();
             }
             Console.WriteLine("Interface To Service Resolve Test Completed");
 
@@ -33,7 +34,8 @@ namespace FactoryAutomation.Core.Test
             TestDataCollection TestDataCollection = ServiceLocator.Current.Resolve<TestDataCollection>("TestDataCollection");
             for (int i = 0; i < TestDataCollection.Count; i++)
             {
-                Console.WriteLine("TestData{0} : TestProperty = {1}", i, dataArray[i].TestProperty);
+                Console.WriteLine("TestData{0} : ", i);
+                TestDataCollection[i].Print();
             }
             Console.WriteLine("Injection Constructor Test Completed");
         }
