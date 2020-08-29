@@ -1,0 +1,90 @@
+﻿<UserControl x:Class="FactoryAutomation.WPF.PropertyGrid"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FactoryAutomation.WPF"
+             mc:Ignorable="d" d:Height="700">
+    <UserControl.Resources>
+        <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"></local:BoolToVisibilityConverter>
+        <local:StringToIntConverter x:Key="StringToIntConverter"/>
+        <local:StringToFloatConverter x:Key="StringToFloatConverter"/>
+        <local:StringToDoubleConverter x:Key="StringToDoubleConverter"/>
+        <DataTemplate x:Key="IntTypePropertyValueDataTemplate">
+            <TextBox HorizontalAlignment="Stretch" 
+                     Text="{Binding DataContext.Value, RelativeSource={RelativeSource Self}, Converter={StaticResource StringToIntConverter}}"
+                     IsReadOnly="{Binding DataContext.IsReadOnly, RelativeSource={RelativeSource Self}}"></TextBox>
+        </DataTemplate>
+        <DataTemplate x:Key="FloatTypePropertyValueDataTemplate">
+            <TextBox HorizontalAlignment="Stretch" 
+                     Text="{Binding DataContext.Value, RelativeSource={RelativeSource Self}, Converter={StaticResource StringToFloatConverter}}"
+                     IsReadOnly="{Binding DataContext.IsReadOnly, RelativeSource={RelativeSource Self}}"></TextBox>
+        </DataTemplate>
+        <DataTemplate x:Key="DoubleTypePropertyValueDataTemplate">
+            <TextBox HorizontalAlignment="Stretch" 
+                     Text="{Binding DataContext.Value, RelativeSource={RelativeSource Self}, Converter={StaticResource StringToDoubleConverter}}"
+                     IsReadOnly="{Binding DataContext.IsReadOnly, RelativeSource={RelativeSource Self}}"></TextBox>
+        </DataTemplate>
+        <DataTemplate x:Key="StringTypePropertyValueDataTemplate">
+            <TextBox HorizontalAlignment="Stretch" 
+                     Text="{Binding DataContext.Value, RelativeSource={RelativeSource Self}}"
+                     IsReadOnly="{Binding DataContext.IsReadOnly, RelativeSource={RelativeSource Self}}"></TextBox>
+        </DataTemplate>
+        <DataTemplate x:Key="DefaultTypePropertyValueDataTemplate">
+            <TextBox HorizontalAlignment="Stretch" 
+                     Text="{Binding DataContext.PropertyType.FullName, RelativeSource={RelativeSource Self}, Mode=OneWay}"
+                     IsReadOnly="True"></TextBox>
+        </DataTemplate>
+        <local:ValueColumnTemplateSelector x:Key="ValueColumnTemplateSelector" 
+                                           IntTypeValueDataTemplate="{StaticResource IntTypePropertyValueDataTemplate}"
+                                           FloatTypeValueDataTemplate="{StaticResource FloatTypePropertyValueDataTemplate}"
+                                           DoubleTypeValueDataTemplate="{StaticResource DoubleTypePropertyValueDataTemplate}"
+                                           DefaultDataTemplate="{StaticResource DefaultTypePropertyValueDataTemplate}">
+        </local:ValueColumnTemplateSelector>
+    </UserControl.Resources>
+    <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <DataGrid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalGridLinesBrush="Black" 
+                  ItemsSource="{Binding ListCollectionView, RelativeSource={RelativeSource AncestorType=local:PropertyGrid, Mode=FindAncestor}}"
+                  CanUserAddRows="False" AutoGenerateColumns="False"
+                  RowHeaderWidth="0">
+            <DataGrid.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.ContainerStyle>
+                        <Style TargetType="GroupItem">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate>
+                                        <Expander IsExpanded="True">
+                                            <Expander.Header>
+                                                    <TextBlock Margin="5"  Background="LightGray" Text="{Binding Name}" VerticalAlignment="Center" HorizontalAlignment="{Binding HorizontalAlignment, RelativeSource={RelativeSource AncestorType=ContentPresenter}, Mode=OneWayToSource}"></TextBlock>
+                                            </Expander.Header>
+                                            <Expander.Content>
+                                                <ItemsPresenter />
+                                            </Expander.Content>
+                                        </Expander>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </GroupStyle.ContainerStyle>
+                </GroupStyle>
+            </DataGrid.GroupStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="dataGridColumnKey" Header="Key" Width="50" IsReadOnly="True" Binding="{Binding Name}">
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                </DataGridTextColumn>
+                <DataGridTemplateColumn x:Name="dataGridColumnValue" Header="Value" Width="150" CellTemplateSelector="{StaticResource ValueColumnTemplateSelector}">
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </ScrollViewer>
+</UserControl>

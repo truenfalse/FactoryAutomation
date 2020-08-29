@@ -17,6 +17,7 @@ namespace FactoryAutomation.WPF
             }
         }
         static bool m_IsInDesignMode;
+        [Browsable(false)]
         public string ViewName
         {
             get

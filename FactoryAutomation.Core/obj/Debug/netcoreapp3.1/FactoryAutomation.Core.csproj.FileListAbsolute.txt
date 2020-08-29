@@ -6,3 +6,4 @@ C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Cor
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core\obj\Debug\netcoreapp3.1\FactoryAutomation.Core.csproj.CoreCompileInputs.cache
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core\obj\Debug\netcoreapp3.1\FactoryAutomation.Core.dll
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core\obj\Debug\netcoreapp3.1\FactoryAutomation.Core.pdb
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core\obj\Debug\netcoreapp3.1\FactoryAutomation.Core.csprojAssemblyReference.cache
