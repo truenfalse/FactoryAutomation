@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FactoryAutomation.Designer/1.0.0": {
+        "dependencies": {
+          "FactoryAutomation.Core": "1.0.0",
+          "FactoryAutomation.WPF": "1.0.0"
+        },
+        "runtime": {
+          "FactoryAutomation.Designer.dll": {}
+        }
+      },
+      "FactoryAutomation.Abstract/1.0.0": {
+        "dependencies": {
+          "FactoryAutomation.Common": "1.0.0"
+        },
+        "runtime": {
+          "FactoryAutomation.Abstract.dll": {}
+        }
+      },
+      "FactoryAutomation.Common/1.0.0": {
+        "runtime": {
+          "FactoryAutomation.Common.dll": {}
+        }
+      },
+      "FactoryAutomation.Core/1.0.0": {
+        "runtime": {
+          "FactoryAutomation.Core.dll": {}
+        }
+      },
+      "FactoryAutomation.WPF/1.0.0": {
+        "dependencies": {
+          "FactoryAutomation.Abstract": "1.0.0"
+        },
+        "runtime": {
+          "FactoryAutomation.WPF.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FactoryAutomation.Designer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FactoryAutomation.Abstract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FactoryAutomation.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FactoryAutomation.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FactoryAutomation.WPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

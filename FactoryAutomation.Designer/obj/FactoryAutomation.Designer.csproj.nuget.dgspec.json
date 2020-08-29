@@ -1,0 +1,307 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Designer\\FactoryAutomation.Designer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Abstract\\FactoryAutomation.Abstract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Abstract\\FactoryAutomation.Abstract.csproj",
+        "projectName": "FactoryAutomation.Abstract",
+        "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Abstract\\FactoryAutomation.Abstract.csproj",
+        "packagesPath": "C:\\Users\\ydk11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Abstract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ydk11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Common\\FactoryAutomation.Common.csproj": {
+                "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Common\\FactoryAutomation.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Common\\FactoryAutomation.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Common\\FactoryAutomation.Common.csproj",
+        "projectName": "FactoryAutomation.Common",
+        "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Common\\FactoryAutomation.Common.csproj",
+        "packagesPath": "C:\\Users\\ydk11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ydk11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core\\FactoryAutomation.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core\\FactoryAutomation.Core.csproj",
+        "projectName": "FactoryAutomation.Core",
+        "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core\\FactoryAutomation.Core.csproj",
+        "packagesPath": "C:\\Users\\ydk11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ydk11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Designer\\FactoryAutomation.Designer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Designer\\FactoryAutomation.Designer.csproj",
+        "projectName": "FactoryAutomation.Designer",
+        "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Designer\\FactoryAutomation.Designer.csproj",
+        "packagesPath": "C:\\Users\\ydk11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Designer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ydk11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core\\FactoryAutomation.Core.csproj": {
+                "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Core\\FactoryAutomation.Core.csproj"
+              },
+              "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.WPF\\FactoryAutomation.WPF.csproj": {
+                "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.WPF\\FactoryAutomation.WPF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.WPF\\FactoryAutomation.WPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.WPF\\FactoryAutomation.WPF.csproj",
+        "projectName": "FactoryAutomation.WPF",
+        "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.WPF\\FactoryAutomation.WPF.csproj",
+        "packagesPath": "C:\\Users\\ydk11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.WPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ydk11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Abstract\\FactoryAutomation.Abstract.csproj": {
+                "projectPath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Abstract\\FactoryAutomation.Abstract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

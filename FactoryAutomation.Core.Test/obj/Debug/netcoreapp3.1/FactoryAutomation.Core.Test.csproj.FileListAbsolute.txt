@@ -14,3 +14,5 @@ C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Cor
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core.Test\obj\Debug\netcoreapp3.1\FactoryAutomation.Core.Test.dll
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core.Test\obj\Debug\netcoreapp3.1\FactoryAutomation.Core.Test.pdb
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core.Test\obj\Debug\netcoreapp3.1\FactoryAutomation.Core.Test.genruntimeconfig.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core.Test\bin\Debug\netcoreapp3.1\FactoryAutomation.Common.dll
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Core.Test\bin\Debug\netcoreapp3.1\FactoryAutomation.Common.pdb

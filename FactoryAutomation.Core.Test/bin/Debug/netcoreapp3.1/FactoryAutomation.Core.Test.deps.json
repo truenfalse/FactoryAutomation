@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v3.1": {
       "FactoryAutomation.Core.Test/1.0.0": {
         "dependencies": {
+          "FactoryAutomation.Common": "1.0.0",
           "FactoryAutomation.Core": "1.0.0"
         },
         "runtime": {
           "FactoryAutomation.Core.Test.dll": {}
+        }
+      },
+      "FactoryAutomation.Common/1.0.0": {
+        "runtime": {
+          "FactoryAutomation.Common.dll": {}
         }
       },
       "FactoryAutomation.Core/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "FactoryAutomation.Core.Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FactoryAutomation.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

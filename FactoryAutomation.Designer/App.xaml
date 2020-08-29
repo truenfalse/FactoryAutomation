@@ -1,0 +1,9 @@
+﻿<Application x:Class="FactoryAutomation.Designer.FactoryAutomationApp"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:FactoryAutomation.Designer" xmlns:viewmodels="clr-namespace:FactoryAutomation.Designer.ViewModels"
+             Startup="Application_Startup">
+    <Application.Resources>
+        <viewmodels:ViewModelLocator x:Key="Locator"></viewmodels:ViewModelLocator>
+    </Application.Resources>
+</Application>

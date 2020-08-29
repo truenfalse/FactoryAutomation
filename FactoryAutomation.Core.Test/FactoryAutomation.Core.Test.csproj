@@ -5,6 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FactoryAutomation.Common\FactoryAutomation.Common.csproj" />
     <ProjectReference Include="..\FactoryAutomation.Core\FactoryAutomation.Core.csproj" />
   </ItemGroup>
 </Project>

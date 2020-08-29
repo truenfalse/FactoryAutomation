@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.Abstract"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.Common", "FactoryAutomation.Common\FactoryAutomation.Common.csproj", "{BEB10630-A5F7-4CA8-B4B1-62090F0F18A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.WPF", "FactoryAutomation.WPF\FactoryAutomation.WPF.csproj", "{384BE6C5-587A-4AE5-A773-17140DFE881A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.Designer", "FactoryAutomation.Designer\FactoryAutomation.Designer.csproj", "{00209B70-9F33-43A4-87FB-BAE9DD8F89D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{BEB10630-A5F7-4CA8-B4B1-62090F0F18A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEB10630-A5F7-4CA8-B4B1-62090F0F18A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEB10630-A5F7-4CA8-B4B1-62090F0F18A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384BE6C5-587A-4AE5-A773-17140DFE881A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384BE6C5-587A-4AE5-A773-17140DFE881A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384BE6C5-587A-4AE5-A773-17140DFE881A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384BE6C5-587A-4AE5-A773-17140DFE881A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00209B70-9F33-43A4-87FB-BAE9DD8F89D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00209B70-9F33-43A4-87FB-BAE9DD8F89D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00209B70-9F33-43A4-87FB-BAE9DD8F89D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00209B70-9F33-43A4-87FB-BAE9DD8F89D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
