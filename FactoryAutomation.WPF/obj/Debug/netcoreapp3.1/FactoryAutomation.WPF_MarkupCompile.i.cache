@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 
-112374237
+2-1222493866
 
-10-1308755165
+11-558072000
 194-659960282
-Controls\PropertyGrid.xaml;
+Controls\PropertyGrid.xaml;Converters.xaml;
 
-False
+True
 

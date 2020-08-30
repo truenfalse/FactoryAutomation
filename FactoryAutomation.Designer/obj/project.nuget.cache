@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wu8PAHBsBX9iqLjR+xV49JTwRXhEc8cD83Z1x8LOMWkXrmofUmpDVh/SGsKv8YsB+Sedkgu7z3SeEx3aj5ALVQ==",
+  "dgSpecHash": "ZOxMnL/10AJTxpN7seJyILIBiBu3/jFAd7zcHQTIIo2HXxFNOLAYd2QIaDd8oG0deKPJn1eDOylOWOkL3l64cA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Designer\\FactoryAutomation.Designer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ydk11\\.nuget\\packages\\materialdesigncolors\\1.2.6\\materialdesigncolors.1.2.6.nupkg.sha512",
+    "C:\\Users\\ydk11\\.nuget\\packages\\materialdesignthemes\\3.1.3\\materialdesignthemes.3.1.3.nupkg.sha512"
+  ],
   "logs": []
 }

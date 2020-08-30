@@ -14,6 +14,13 @@ namespace FactoryAutomation.Designer.ViewModels
                 return ServiceLocator.Current.Resolve<MainVIewModel>();
             }
         }
+        public TitleBarViewModel TitleBar
+        {
+            get
+            {
+                return ServiceLocator.Current.Resolve<TitleBarViewModel>();
+            }
+        }
         public ViewModelLocator()
         {
 

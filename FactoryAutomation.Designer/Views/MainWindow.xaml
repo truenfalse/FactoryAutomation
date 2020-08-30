@@ -1,18 +1,33 @@
-﻿<Window x:Class="FactoryAutomation.Designer.MainWindow"
+﻿<Window x:Class="FactoryAutomation.Designer.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:FactoryAutomation.Designer" 
+        xmlns:local="clr-namespace:FactoryAutomation.Designer.Views" 
         xmlns:wpf="clr-namespace:FactoryAutomation.WPF;assembly=FactoryAutomation.WPF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
         mc:Ignorable="d"
         DataContext="{Binding Main, Source={StaticResource Locator}}"
-        Title="MainWindow" WindowState="Maximized" WindowStyle="None" d:Width="1920" d:Height="1080">
+        ResizeMode="NoResize"
+        Title="MainWindow" WindowStyle="None" d:Width="1920" d:Height="1080" MaxWidth="1920" MaxHeight="1080">
     <Grid HorizontalAlignment="Stretch">
         <Grid.RowDefinitions>
             <RowDefinition Height="30"></RowDefinition>
             <RowDefinition Height="1*"></RowDefinition>
         </Grid.RowDefinitions>
-        <wpf:PropertyGrid Grid.Row="1" KeyColumnWidth="200" ValueColumnWidth="1*" SelectedObject="{Binding Path=DataContext, RelativeSource={RelativeSource AncestorType=local:MainWindow, Mode=FindAncestor}}"></wpf:PropertyGrid>
+        <local:TitleBarView Margin="0" Padding="0"></local:TitleBarView>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        </Grid>
     </Grid>
 </Window>

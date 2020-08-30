@@ -10,5 +10,8 @@
     <Page Update="Controls\PropertyGrid.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Converters.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>

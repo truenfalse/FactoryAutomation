@@ -3,44 +3,51 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:sys="clr-namespace:System;assembly=System.Memory"
              xmlns:local="clr-namespace:FactoryAutomation.WPF"
              mc:Ignorable="d" d:Height="700">
     <UserControl.Resources>
-        <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"></local:BoolToVisibilityConverter>
-        <local:StringToIntConverter x:Key="StringToIntConverter"/>
-        <local:StringToFloatConverter x:Key="StringToFloatConverter"/>
-        <local:StringToDoubleConverter x:Key="StringToDoubleConverter"/>
-        <DataTemplate x:Key="IntTypePropertyValueDataTemplate">
-            <TextBox HorizontalAlignment="Stretch" 
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Converters.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+            <DataTemplate x:Key="IntTypePropertyValueDataTemplate">
+                <TextBox HorizontalAlignment="Stretch" 
                      Text="{Binding DataContext.Value, RelativeSource={RelativeSource Self}, Converter={StaticResource StringToIntConverter}}"
                      IsReadOnly="{Binding DataContext.IsReadOnly, RelativeSource={RelativeSource Self}}"></TextBox>
-        </DataTemplate>
-        <DataTemplate x:Key="FloatTypePropertyValueDataTemplate">
-            <TextBox HorizontalAlignment="Stretch" 
+            </DataTemplate>
+            <DataTemplate x:Key="FloatTypePropertyValueDataTemplate">
+                <TextBox HorizontalAlignment="Stretch" 
                      Text="{Binding DataContext.Value, RelativeSource={RelativeSource Self}, Converter={StaticResource StringToFloatConverter}}"
                      IsReadOnly="{Binding DataContext.IsReadOnly, RelativeSource={RelativeSource Self}}"></TextBox>
-        </DataTemplate>
-        <DataTemplate x:Key="DoubleTypePropertyValueDataTemplate">
-            <TextBox HorizontalAlignment="Stretch" 
+            </DataTemplate>
+            <DataTemplate x:Key="DoubleTypePropertyValueDataTemplate">
+                <TextBox HorizontalAlignment="Stretch" 
                      Text="{Binding DataContext.Value, RelativeSource={RelativeSource Self}, Converter={StaticResource StringToDoubleConverter}}"
                      IsReadOnly="{Binding DataContext.IsReadOnly, RelativeSource={RelativeSource Self}}"></TextBox>
-        </DataTemplate>
-        <DataTemplate x:Key="StringTypePropertyValueDataTemplate">
-            <TextBox HorizontalAlignment="Stretch" 
+            </DataTemplate>
+            <DataTemplate x:Key="StringTypePropertyValueDataTemplate">
+                <TextBox HorizontalAlignment="Stretch" 
                      Text="{Binding DataContext.Value, RelativeSource={RelativeSource Self}}"
                      IsReadOnly="{Binding DataContext.IsReadOnly, RelativeSource={RelativeSource Self}}"></TextBox>
-        </DataTemplate>
-        <DataTemplate x:Key="DefaultTypePropertyValueDataTemplate">
-            <TextBox HorizontalAlignment="Stretch" 
+            </DataTemplate>
+            <DataTemplate x:Key="EnumTypePropertyValueDataTemplate">
+                <ComboBox ItemsSource="{Binding DataContext.PropertyType, Converter={StaticResource TypeToEnumValuesConverter}, RelativeSource={RelativeSource Self}, Mode=OneWay}" SelectedItem="{Binding DataContext.Value, RelativeSource={RelativeSource Self}}">
+                </ComboBox>
+            </DataTemplate>
+            <DataTemplate x:Key="DefaultTypePropertyValueDataTemplate">
+                <TextBox HorizontalAlignment="Stretch" 
                      Text="{Binding DataContext.PropertyType.FullName, RelativeSource={RelativeSource Self}, Mode=OneWay}"
                      IsReadOnly="True"></TextBox>
-        </DataTemplate>
-        <local:ValueColumnTemplateSelector x:Key="ValueColumnTemplateSelector" 
+            </DataTemplate>
+            <local:ValueColumnTemplateSelector x:Key="ValueColumnTemplateSelector" 
                                            IntTypeValueDataTemplate="{StaticResource IntTypePropertyValueDataTemplate}"
                                            FloatTypeValueDataTemplate="{StaticResource FloatTypePropertyValueDataTemplate}"
                                            DoubleTypeValueDataTemplate="{StaticResource DoubleTypePropertyValueDataTemplate}"
+                                           EnumTypeValueDataTemplate="{StaticResource EnumTypePropertyValueDataTemplate}"
                                            DefaultDataTemplate="{StaticResource DefaultTypePropertyValueDataTemplate}">
-        </local:ValueColumnTemplateSelector>
+            </local:ValueColumnTemplateSelector>
+        </ResourceDictionary>
     </UserControl.Resources>
     <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
         <DataGrid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalGridLinesBrush="Black" 

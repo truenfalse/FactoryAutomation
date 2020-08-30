@@ -13,9 +13,10 @@ namespace FactoryAutomation.WPF
         public DataTemplate FloatTypeValueDataTemplate { get; set; }
         public DataTemplate DoubleTypeValueDataTemplate { get; set; }
         public DataTemplate StringTypeValueDataTemplate { get; set; }
+        public DataTemplate EnumTypeValueDataTemplate { get; set; }
         public ValueColumnTemplateSelector()
         {
-
+                
         }
         public override DataTemplate SelectTemplate(object item, DependencyObject container)
         {
@@ -28,8 +29,10 @@ namespace FactoryAutomation.WPF
                 return FloatTypeValueDataTemplate;
             else if (PropertyType == typeof(double))
                 return DoubleTypeValueDataTemplate;
-            else if(PropertyType == typeof(string))
+            else if (PropertyType == typeof(string))
                 return StringTypeValueDataTemplate;
+            else if (PropertyType.IsEnum == true)
+                return EnumTypeValueDataTemplate;
             else
                 return DefaultDataTemplate;
         }

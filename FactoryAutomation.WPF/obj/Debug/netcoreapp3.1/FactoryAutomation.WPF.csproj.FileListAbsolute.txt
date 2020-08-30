@@ -18,3 +18,4 @@ C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\Controls\PropertyGrid.g.cs
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\Controls\PropertyGrid.baml
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.WPF\obj\Debug\netcoreapp3.1\Converters.baml

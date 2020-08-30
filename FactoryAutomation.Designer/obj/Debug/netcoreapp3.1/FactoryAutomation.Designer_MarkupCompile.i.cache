@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\App.xaml
-11892971807
+3-955082073
 
-7-1526925322
-196565259044
-Views\MainWindow.xaml;
+11543375858
+1981340786438
+Views\MainContentView.xaml;Views\MainWindow.xaml;Views\TitleBarView.xaml;
 
-True
+False
 

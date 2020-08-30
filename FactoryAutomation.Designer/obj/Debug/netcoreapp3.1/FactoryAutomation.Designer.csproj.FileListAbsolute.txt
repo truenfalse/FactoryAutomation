@@ -23,8 +23,12 @@ C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Des
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\FactoryAutomation.Designer.g.resources
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\FactoryAutomation.Designer.AssemblyInfoInputs.cache
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\FactoryAutomation.Designer.AssemblyInfo.cs
-C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\FactoryAutomation.Designer.csproj.CoreCompileInputs.cache
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\FactoryAutomation.Designer.csproj.CopyComplete
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\FactoryAutomation.Designer.dll
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\FactoryAutomation.Designer.pdb
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\FactoryAutomation.Designer.genruntimeconfig.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\Views\TitleBarView.g.cs
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\Views\TitleBarView.baml
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\FactoryAutomation.Designer.csproj.CoreCompileInputs.cache

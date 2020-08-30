@@ -1,5 +1,6 @@
 ﻿using FactoryAutomation.Core;
 using FactoryAutomation.Designer.ViewModels;
+using FactoryAutomation.Designer.Views;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -25,10 +26,11 @@ namespace FactoryAutomation.Designer
             {
                 return new Container();
             });
-            ServiceLocator.Current.Register<MainVIewModel>();
-            ServiceLocator.Current.Register<MainWindow>();
 
-            MainWindow = ServiceLocator.Current.Resolve<MainWindow>();
+            ServiceLocator.Current.Register<MainVIewModel>();
+            ServiceLocator.Current.Register<TitleBarViewModel>();
+
+            MainWindow = new MainWindow();
             MainWindow.ShowDialog();
         }
     }
