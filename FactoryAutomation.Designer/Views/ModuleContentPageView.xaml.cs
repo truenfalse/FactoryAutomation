@@ -14,11 +14,11 @@ using System.Windows.Shapes;
 namespace FactoryAutomation.Designer.Views
 {
     /// <summary>
-    /// MainContentView.xaml에 대한 상호 작용 논리
+    /// ModuleContentPageView.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class MainContentView : UserControl
+    public partial class ModuleContentPageView : Page
     {
-        public MainContentView()
+        public ModuleContentPageView()
         {
             InitializeComponent();
         }

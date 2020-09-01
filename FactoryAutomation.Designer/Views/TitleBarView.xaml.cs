@@ -19,19 +19,46 @@ namespace FactoryAutomation.Designer.Views
     /// </summary>
     public partial class TitleBarView : UserControl
     {
+        public static readonly DependencyProperty TitleProperty;
+        public string Title
+        {
+            get
+            {
+                return (string)GetValue(TitleProperty);
+            }
+            set
+            {
+                SetValue(TitleProperty, value);
+            }
+        }
         Window MainWindow;
         bool IsMouseDown;
         Point DownMainWIndowPoint;
         Point DownMousePoint;
+        
+        static TitleBarView()
+        {
+            FrameworkPropertyMetadata metaData = new FrameworkPropertyMetadata();
+            metaData.AffectsMeasure = true;
+            metaData.DefaultValue = "MainWindow";
+            metaData.PropertyChangedCallback = new PropertyChangedCallback(Title_PropertyChangedCallback);
+            TitleProperty = DependencyProperty.Register("Title",typeof(string), typeof(TitleBarView), metaData);
+        }
+
+        private static void Title_PropertyChangedCallback(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            (d as TitleBarView).TitleTextBlock.Text = (d as TitleBarView).Title;
+        }
+
         public TitleBarView()
         {
-            InitializeComponent();
             MainWindow = Application.Current.MainWindow;
+            InitializeComponent();
         }
 
         private void UserControl_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            if(IsMouseDown == false)
+            if(IsMouseDown == false && e.ClickCount == 1)
             {
                 CaptureMouse();
                 double Left = MainWindow.Left;
@@ -57,14 +84,27 @@ namespace FactoryAutomation.Designer.Views
             ReleaseMouseCapture();
             IsMouseDown = false;
         }
-        private DependencyObject FindMainWindow()
+
+        private void UserControl_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            DependencyObject dependencyObj = this.TemplatedParent;
-            while (dependencyObj.GetType() != typeof(MainWindow))
-            {
-                dependencyObj = VisualTreeHelper.GetParent(this);
-            }
-            return dependencyObj;
+
+        }
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.Close();
+        }
+
+        private void btnChangeWindowState_Click(object sender, RoutedEventArgs e)
+        {
+            if(MainWindow.WindowState != WindowState.Maximized)
+                MainWindow.WindowState = WindowState.Maximized;
+            else
+                MainWindow.WindowState = WindowState.Normal;
+        }
+
+        private void btnChangeWindowStateMinimized_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.WindowState = WindowState.Minimized;
         }
     }
 }

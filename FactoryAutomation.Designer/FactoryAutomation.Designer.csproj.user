@@ -7,7 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\MainContentView.xaml.cs">
+    <Compile Update="Views\DeviceContentPageView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\FlowContentPageView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MainContentPageView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ModuleContentPageView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\TitleBarView.xaml.cs">
@@ -15,10 +24,19 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Views\MainContentView.xaml">
+    <Page Update="Views\DeviceContentPageView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\FlowContentPageView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MainContentPageView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ModuleContentPageView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\TitleBarView.xaml">

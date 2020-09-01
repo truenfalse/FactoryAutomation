@@ -16,5 +16,5 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 194-659960282
 Controls\PropertyGrid.xaml;Converters.xaml;
 
-True
+False
 

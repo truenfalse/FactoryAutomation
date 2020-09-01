@@ -1,6 +1,7 @@
 ﻿using FactoryAutomation.Core;
 using FactoryAutomation.Designer.ViewModels;
 using FactoryAutomation.Designer.Views;
+using FactoryAutomation.Management;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -27,8 +28,11 @@ namespace FactoryAutomation.Designer
                 return new Container();
             });
 
+            ServiceLocator.Current.Register<AppManager>();
+            var AppManager = ServiceLocator.Current.Resolve<AppManager>();
+            AppManager.Title = "YunsApp";
+
             ServiceLocator.Current.Register<MainVIewModel>();
-            ServiceLocator.Current.Register<TitleBarViewModel>();
 
             MainWindow = new MainWindow();
             MainWindow.ShowDialog();

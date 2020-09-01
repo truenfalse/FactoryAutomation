@@ -32,3 +32,14 @@ C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Des
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
 C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\FactoryAutomation.Designer.csproj.CoreCompileInputs.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\bin\Debug\netcoreapp3.1\FactoryAutomation.Management.dll
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\bin\Debug\netcoreapp3.1\FactoryAutomation.Management.pdb
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\Views\MainContentPageView.g.cs
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\Views\MainContentPageView.baml
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\Views\DeviceContentPageView.g.cs
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\Views\ModuleContentPageView.g.cs
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\Views\DeviceContentPageView.baml
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\Views\ModuleContentPageView.baml
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\Views\FlowContentPageView.g.cs
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Designer\obj\Debug\netcoreapp3.1\Views\FlowContentPageView.baml

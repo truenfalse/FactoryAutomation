@@ -7,18 +7,18 @@ namespace FactoryAutomation.Designer.ViewModels
 {
     public class ViewModelLocator
     {
-        public MainVIewModel Main
+        public MainVIewModel MainViewModel
         {
             get
             {
                 return ServiceLocator.Current.Resolve<MainVIewModel>();
             }
         }
-        public TitleBarViewModel TitleBar
+        public MainContentPageViewModel TitleBar
         {
             get
             {
-                return ServiceLocator.Current.Resolve<TitleBarViewModel>();
+                return ServiceLocator.Current.Resolve<MainContentPageViewModel>();
             }
         }
         public ViewModelLocator()

@@ -27,11 +27,14 @@ namespace FactoryAutomation.Abstract
         }
         virtual protected void Set<T>(ref T _Field, T _Value, bool _ForceOnPropertyChanged = false, [CallerMemberName] string PropName = null)
         {
-            if (_Field.Equals(_Value))
+            if (!(_Field is null))
             {
-                if(_ForceOnPropertyChanged)
-                    OnPropertyChanged(PropName);
-                return;
+                if (_Field.Equals(_Value))
+                {
+                    if (_ForceOnPropertyChanged)
+                        OnPropertyChanged(PropName);
+                    return;
+                }
             }
             _Field = _Value;
             OnPropertyChanged(PropName);

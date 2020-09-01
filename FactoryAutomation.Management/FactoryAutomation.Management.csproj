@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FactoryAutomation.Abstract\FactoryAutomation.Abstract.csproj" />
+    <ProjectReference Include="..\FactoryAutomation.Core\FactoryAutomation.Core.csproj" />
+    <ProjectReference Include="..\FactoryAutomation.WPF\FactoryAutomation.WPF.csproj" />
+  </ItemGroup>
+
+</Project>

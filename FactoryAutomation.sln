@@ -5,15 +5,17 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryAutomation.Core", "FactoryAutomation.Core\FactoryAutomation.Core.csproj", "{31AFD1F4-7903-45C4-AC1E-4EDFEFAF403A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.Core.Test", "FactoryAutomation.Core.Test\FactoryAutomation.Core.Test.csproj", "{EA825A48-9E92-403B-BA4C-C7CC0F41FA4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryAutomation.Core.Test", "FactoryAutomation.Core.Test\FactoryAutomation.Core.Test.csproj", "{EA825A48-9E92-403B-BA4C-C7CC0F41FA4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.Abstract", "FactoryAutomation.Abstract\FactoryAutomation.Abstract.csproj", "{5848D2D3-A606-4721-9B7D-795347620857}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryAutomation.Abstract", "FactoryAutomation.Abstract\FactoryAutomation.Abstract.csproj", "{5848D2D3-A606-4721-9B7D-795347620857}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.Common", "FactoryAutomation.Common\FactoryAutomation.Common.csproj", "{BEB10630-A5F7-4CA8-B4B1-62090F0F18A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryAutomation.Common", "FactoryAutomation.Common\FactoryAutomation.Common.csproj", "{BEB10630-A5F7-4CA8-B4B1-62090F0F18A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.WPF", "FactoryAutomation.WPF\FactoryAutomation.WPF.csproj", "{384BE6C5-587A-4AE5-A773-17140DFE881A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryAutomation.WPF", "FactoryAutomation.WPF\FactoryAutomation.WPF.csproj", "{384BE6C5-587A-4AE5-A773-17140DFE881A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.Designer", "FactoryAutomation.Designer\FactoryAutomation.Designer.csproj", "{00209B70-9F33-43A4-87FB-BAE9DD8F89D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryAutomation.Designer", "FactoryAutomation.Designer\FactoryAutomation.Designer.csproj", "{00209B70-9F33-43A4-87FB-BAE9DD8F89D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryAutomation.Management", "FactoryAutomation.Management\FactoryAutomation.Management.csproj", "{34E5DF8F-1C40-4B78-86E7-918F3381BAD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{00209B70-9F33-43A4-87FB-BAE9DD8F89D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00209B70-9F33-43A4-87FB-BAE9DD8F89D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00209B70-9F33-43A4-87FB-BAE9DD8F89D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E5DF8F-1C40-4B78-86E7-918F3381BAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E5DF8F-1C40-4B78-86E7-918F3381BAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E5DF8F-1C40-4B78-86E7-918F3381BAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E5DF8F-1C40-4B78-86E7-918F3381BAD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
