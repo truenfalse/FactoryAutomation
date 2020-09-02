@@ -2,6 +2,7 @@
 using FactoryAutomation.Designer.ViewModels;
 using FactoryAutomation.Designer.Views;
 using FactoryAutomation.Management;
+using FactoryAutomation.Management.Service;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -29,6 +30,12 @@ namespace FactoryAutomation.Designer
             });
 
             ServiceLocator.Current.Register<AppManager>();
+            ServiceLocator.Current.Register<IAlarmService, AlarmService>();
+            //ServiceLocator.Current.Register<IDeviceFinder, DeviceFinder>();
+            //ServiceLocator.Current.Register<IModuleFinder, ModuleFInder>();
+            ServiceLocator.Current.Register<DeviceFactory>();
+            ServiceLocator.Current.Register<ModuleFactory>();
+
             var AppManager = ServiceLocator.Current.Resolve<AppManager>();
             AppManager.Title = "YunsApp";
 

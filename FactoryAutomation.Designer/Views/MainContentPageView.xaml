@@ -3,16 +3,11 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:FactoryAutomation.Designer.Views"
+      xmlns:local="clr-namespace:FactoryAutomation.Designer.Views" xmlns:control="clr-namespace:FactoryAutomation.Vision.Control;assembly=FactoryAutomation.Vision"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="MainContentPageView">
-    <Grid>
-        <TextBlock>
-            <Run Text="This"></Run>
-            <Run Text="Is"></Run>
-            <Run Text="A"></Run>
-            <Run Text="MainContentPage"></Run>
-        </TextBlock>
+    <Grid Background="DarkGray">
+        <control:ImageViewer Background="Blue" Width="200" Height="100" IsFit="True"></control:ImageViewer>
     </Grid>
 </Page>

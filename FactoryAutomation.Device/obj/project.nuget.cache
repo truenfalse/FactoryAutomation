@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vEIy4kmNDJ2HcsOQsU9nbl0mgta7K+7pIN6biimyr0waQclXqMutE0W+6PfIQ7TpJyVxMmGoMkzWD3M1dAUlww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Device\\FactoryAutomation.Device.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ydk11\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\ydk11\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ydk11\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

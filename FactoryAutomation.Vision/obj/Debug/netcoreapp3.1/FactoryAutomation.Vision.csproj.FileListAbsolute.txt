@@ -1,0 +1,14 @@
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\bin\Debug\netcoreapp3.1\FactoryAutomation.Vision.deps.json
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\bin\Debug\netcoreapp3.1\FactoryAutomation.Vision.dll
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\obj\Debug\netcoreapp3.1\FactoryAutomation.Vision.csprojAssemblyReference.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\obj\Debug\netcoreapp3.1\FactoryAutomation.Vision.AssemblyInfoInputs.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\obj\Debug\netcoreapp3.1\FactoryAutomation.Vision.AssemblyInfo.cs
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\bin\Debug\netcoreapp3.1\FactoryAutomation.Vision.pdb
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\obj\Debug\netcoreapp3.1\Control\ImageViewer.g.cs
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\obj\Debug\netcoreapp3.1\FactoryAutomation.Vision_MarkupCompile.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\obj\Debug\netcoreapp3.1\FactoryAutomation.Vision_MarkupCompile.lref
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\obj\Debug\netcoreapp3.1\Control\ImageViewer.baml
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\obj\Debug\netcoreapp3.1\FactoryAutomation.Vision.g.resources
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\obj\Debug\netcoreapp3.1\FactoryAutomation.Vision.csproj.CoreCompileInputs.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\obj\Debug\netcoreapp3.1\FactoryAutomation.Vision.dll
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Vision\obj\Debug\netcoreapp3.1\FactoryAutomation.Vision.pdb

@@ -8,7 +8,7 @@ namespace FactoryAutomation.Management.Service
 {
     public interface IDeviceFinder
     {
-        ObservableCollection<Type> FindDeviceTypes();
+        IEnumerable<Type> FindDeviceTypes();
         void Refresh();
     }
 }

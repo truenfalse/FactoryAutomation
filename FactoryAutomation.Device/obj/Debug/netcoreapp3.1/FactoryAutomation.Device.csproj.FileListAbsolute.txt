@@ -1,0 +1,12 @@
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Device\bin\Debug\netcoreapp3.1\FactoryAutomation.Device.deps.json
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Device\bin\Debug\netcoreapp3.1\FactoryAutomation.Device.dll
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Device\bin\Debug\netcoreapp3.1\FactoryAutomation.Device.pdb
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Device\bin\Debug\netcoreapp3.1\FactoryAutomation.Vision.dll
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Device\bin\Debug\netcoreapp3.1\FactoryAutomation.Vision.pdb
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Device\obj\Debug\netcoreapp3.1\FactoryAutomation.Device.csprojAssemblyReference.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Device\obj\Debug\netcoreapp3.1\FactoryAutomation.Device.AssemblyInfoInputs.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Device\obj\Debug\netcoreapp3.1\FactoryAutomation.Device.AssemblyInfo.cs
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Device\obj\Debug\netcoreapp3.1\FactoryAutomation.Device.csproj.CoreCompileInputs.cache
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Device\obj\Debug\netcoreapp3.1\FactoryAutomation.Device.csproj.CopyComplete
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Device\obj\Debug\netcoreapp3.1\FactoryAutomation.Device.dll
+C:\Users\ydk11\Desktop\FactoryAutomation\FactoryAutomation\FactoryAutomation.Device\obj\Debug\netcoreapp3.1\FactoryAutomation.Device.pdb

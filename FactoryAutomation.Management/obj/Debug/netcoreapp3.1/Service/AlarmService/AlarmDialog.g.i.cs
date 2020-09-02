@@ -53,8 +53,7 @@ namespace FactoryAutomation.Management.Service {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/FactoryAutomation.Management;V1.0.0.0;component/service/alarmservice/alarmdialog" +
-                    ".xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/FactoryAutomation.Management;component/service/alarmservice/alarmdialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Service\AlarmService\AlarmDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

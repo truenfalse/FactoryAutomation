@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
+using System.Linq;
 
 namespace FactoryAutomation.Management.Service
 {
@@ -32,7 +33,7 @@ namespace FactoryAutomation.Management.Service
         public ModuleFactory(IModuleFinder _ModuleFinder)
         {
             m_ModuleFinder = _ModuleFinder;
-            RegisterTypes = _ModuleFinder.FindModuleTypes();
+            RegisterTypes = new ObservableCollection<Type>(_ModuleFinder.FindModuleTypes()); ;
             m_ModuleInstances = new ObservableCollection<ModuleBase>();
         }
         public ModuleBase CreateInstance(Type T, string Key)

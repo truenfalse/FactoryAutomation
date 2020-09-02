@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
-
+using System.Linq;
 namespace FactoryAutomation.Management.Service
 {
     public class DeviceFactory : ObservableObject
@@ -34,7 +34,7 @@ namespace FactoryAutomation.Management.Service
         public DeviceFactory([InjectionParameter]IDeviceFinder DeviceFinder)
         {
             m_DeviceFinder = DeviceFinder;
-            RegisteredType = DeviceFinder.FindDeviceTypes();
+            RegisteredType = new ObservableCollection<Type>(DeviceFinder.FindDeviceTypes());
             m_DeviceInstances = new ObservableCollection<DeviceBase>();
         }
         public DeviceBase CreateInstance(Type T, string Key)

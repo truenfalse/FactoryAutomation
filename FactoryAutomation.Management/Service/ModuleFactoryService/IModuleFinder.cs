@@ -7,6 +7,6 @@ namespace FactoryAutomation.Management.Service
 {
     public interface IModuleFinder
     {
-        ObservableCollection<Type> FindModuleTypes();
+        IEnumerable<Type> FindModuleTypes();
     }
 }

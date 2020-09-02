@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "UIW33BGq6qJ3eHmtbSBy+Ail7c68w+RxsHURbkWi1vkML4I9UHFXbZxmYs0jeZqQWg5xatFBITaXrjmnw5Rlpw==",
+  "dgSpecHash": "DlAarpNzVLJyqhBAzOfmDpdw3vRmn3kwRoYmf1pRzgNTU0C8Qok6isSdab7bO+QBei5/fo1rxgt7uEuAbqZ5hA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ydk11\\Desktop\\FactoryAutomation\\FactoryAutomation\\FactoryAutomation.Designer\\FactoryAutomation.Designer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ydk11\\.nuget\\packages\\materialdesigncolors\\1.2.6\\materialdesigncolors.1.2.6.nupkg.sha512",
     "C:\\Users\\ydk11\\.nuget\\packages\\materialdesignthemes\\3.1.3\\materialdesignthemes.3.1.3.nupkg.sha512",
-    "C:\\Users\\ydk11\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512"
+    "C:\\Users\\ydk11\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\ydk11\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ydk11\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\ydk11\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

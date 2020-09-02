@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FactoryAutomation.Core\FactoryAutomation.Core.csproj" />
     <ProjectReference Include="..\FactoryAutomation.Management\FactoryAutomation.Management.csproj" />
+    <ProjectReference Include="..\FactoryAutomation.Vision\FactoryAutomation.Vision.csproj" />
     <ProjectReference Include="..\FactoryAutomation.WPF\FactoryAutomation.WPF.csproj" />
   </ItemGroup>
 
